@@ -1,0 +1,38 @@
+<?php
+$urlPrefix = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] && !in_array(strtolower($_SERVER['HTTPS']),array('off','no'))) ? 'https' : 'http').'://'.$_SERVER['HTTP_HOST'];
+?>
+{
+"FILES_ROOT":          "",
+"RETURN_URL_PREFIX":   "<?php echo $urlPrefix; ?>/",
+"SESSION_PATH_KEY":    "",
+"THUMBS_VIEW_WIDTH":   "122",
+"THUMBS_VIEW_HEIGHT":  "91",
+"PREVIEW_THUMB_WIDTH": "122",
+"PREVIEW_THUMB_HEIGHT":"91",
+"MAX_IMAGE_WIDTH":     "",
+"MAX_IMAGE_HEIGHT":    "",
+"INTEGRATION":         "tinymce4",
+"DIRLIST":             "action/dirtree.php",
+"CREATEDIR":           "",
+"DELETEDIR":           "",
+"MOVEDIR":             "",
+"COPYDIR":             "",
+"RENAMEDIR":           "",
+"FILESLIST":           "action/fileslist.php",
+"UPLOAD":              "action/upload.php",
+"DOWNLOAD":            "action/download.php",
+"DOWNLOADDIR":         "action/downloaddir.php",
+"DELETEFILE":          "action/deletefile.php",
+"MOVEFILE":            "",
+"COPYFILE":            "",
+"RENAMEFILE":          "action/renamefile.php",
+"GENERATETHUMB":       "action/thumb.php",
+"DEFAULTVIEW":         "thumb",
+"FORBIDDEN_UPLOADS":   "js jsp jsb mhtml mht xht php phtml php3 php4 php5 phps shtml jhtml pl sh py cgi exe application gadget hta cpl msc jar vb jse ws wsf wsc wsh ps1 ps2 psc1 psc2 msh msh1 msh2 inf reg scf msp scr dll msi vbs bat com pif cmd vxd cpl htpasswd htaccess",
+"ALLOWED_UPLOADS":     "jpg jpeg png gif bmp tiff svg doc docx rtf pdf xls xlsx txt csv html xhtml psd sql log fla xml ade adp mdb accdb ppt pptx odt ots ott odb odg otp otg odf ods odp css ai mov mpeg mp4 avi mpg wma flv webm mp3 m4a ac3 aiff mid ogg wav zip rar gz tar iso dmg",
+"FILEPERMISSIONS":     "0644",
+"DIRPERMISSIONS":      "0755",
+"LANG":                "auto",
+"DATEFORMAT":          "dd/MM/yyyy HH:mm",
+"OPEN_LAST_DIR":       "yes"
+}

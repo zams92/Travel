@@ -1,0 +1,29 @@
+<meta property="place:location:latitude" content="3.541398" />
+<meta property="place:location:longitude" content="98.660551" />
+<meta property="business:contact_data:street_address" content="Jalan Jend. A.H. Nasution No.73,Medan Johor,Sumatera Utara" />
+<meta property="business:contact_data:locality" content="Medan Johor" />
+<meta property="business:contact_data:postal_code" content="20153" />
+<meta property="business:contact_data:country_name" content="Indonesia" />
+<meta property="business:contact_data:email" content="info@cyprotgd.com" />
+<meta property="business:contact_data:phone_number" content="+62 853 6100 5250" />
+<meta property="business:contact_data:website" content="<?=$website_url;?>" />
+
+<meta property="og:type" content="article" /> 
+<meta property="profile:username" content="Cyber Programming TGD" /> 
+<meta property="og:title" content="<?=$metasocial_mod;?> - <?=$metasocial_title;?>" />
+<meta property="og:description" content="<?=$metasocial_desc;?>" />
+<meta property="og:image" content="<?=$metasocial_img;?>" />
+<meta property="og:url" content="<?=$metasocial_url;?>" />
+<meta property="og:site_name" content="<?=$metasocial_name;?>" />
+<meta property="fb:admins" content="681588685276233" /> 
+
+<meta name="twitter:card" content="summary" /> 
+<meta name="twitter:site" content="<?=$metasocial_name;?>" />
+<meta name="twitter:title" content="<?=$metasocial_mod;?> - <?=$metasocial_title;?>" />
+<meta name="twitter:description" content="<?=$metasocial_desc;?>" />
+<meta name="twitter:creator" content="cypro_tgd" /> 
+<meta name="twitter:image:src" content="<?=$metasocial_img;?>" />
+<meta name="twitter:domain" content="<?=$metasocial_url;?>" />
+<meta itemprop="name" content="<?=$metasocial_mod;?> - <?=$metasocial_title;?>" />
+<meta itemprop="description" content="<?=$metasocial_desc;?>" />
+<meta itemprop="image" content="<?=$metasocial_img;?>" />
